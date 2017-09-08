@@ -3,6 +3,11 @@
 
 int main()
 {
-    printf("Hello world!\n");
+    int a;
+
+    printf("Digite um valor: ");
+    scanf("%d", &a);
+    printf("Valor digitado: %d", a);
+
     return 0;
 }
